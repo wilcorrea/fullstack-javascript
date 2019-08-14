@@ -2,6 +2,10 @@
 
 this project has examples of back and front JavaScript implementations
 
+## Setup
+
+Access https://connect-sandbox.wirecard.com.br and get a token then put it in .env property "VUE_APP_WIRECARD_AUTHORIZATION"
+
 ## Run
 
 ```bash
