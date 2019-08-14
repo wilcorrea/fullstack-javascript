@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  front:
+    image: node:10-alpine
+    user: node
+    container_name: front
+    working_dir: /var/www/app
+    volumes:
+      - ./front:/var/www/app
+    command: sh /var/www/app/bootstrap.sh
+    ports:
+      - 1981:1981
+
+  back:
+    image: node:10-alpine
+    user: node
+    container_name: back
+    working_dir: /var/www/app
+    volumes:
+      - ./back:/var/www/app
+    command: sh /var/www/app/bootstrap.sh
+    ports:
+      - 4183:4183

@@ -1,0 +1,33 @@
+image: wilcorrea/fullstack-javascript:1.4
+
+stages:
+  - test
+  - deploy
+
+testing:
+  stage: test
+  only:
+    - merge_requests
+  script:
+    - cp -rf /var/www/app/back/node_modules ./back
+    - cp -rf /var/www/app/front/node_modules ./front
+    - sh ./back/.scripts/testing.sh $(pwd)
+    - sh ./front/.scripts/testing.sh $(pwd)
+
+publish:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cp -rf /var/www/app/back/node_modules ./back
+    - cp -rf /var/www/app/front/node_modules ./front
+    - cp -rf ./.tevun ./dist
+    - cp -f ./.env.production ./dist
+    - cp -f ./docker-compose.yml.production ./dist
+    - sh ./back/.scripts/publishing.sh $(pwd)
+    - sh ./front/.scripts/publishing.sh $(pwd)
+    - cd ./dist
+    - git config --global user.email "wilcorrea@gmail.com" && git config --global user.name "William Correa"
+    - git init . && git add . && git commit -m "Deploy [$(date)]"
+    - git remote add deploy https://william:$DEPLOY_PASSWORD@tevun.wilcorrea.dev/fullstack-javascript.wilcorrea.dev/repo
+    - git push deploy master --force

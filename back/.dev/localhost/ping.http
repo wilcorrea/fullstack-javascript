@@ -1,0 +1,11 @@
+POST http://localhost:4000/v1 HTTP/1.1
+Host: localhost
+Accept: */*
+Cache-Control: no-cache
+accept-encoding: gzip, deflate
+Connection: keep-alive
+cache-control: no-cache
+Content-Type: application/json
+
+{"query":"query { ping }"}
+###

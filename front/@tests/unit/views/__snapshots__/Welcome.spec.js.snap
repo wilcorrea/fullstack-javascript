@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome should render content correctly 1`] = `
+<div class="app-layout__page Welcome">
+  <h1>Seja bem vindo!</h1>
+  <div>
+    <p></p>
+    <h3>Olá, tudo bem por ai? Espero que sim</h3>
+    <p></p>
+    <p>Você está tendo acesso à este projeto que é um desafio que fiz para uma avaliação
+      para uma posição de Tech Lead Front na Wirecard Brasil, então vou explicar umas coisinhas
+      sobre isso.</p>
+    <p>
+      Foi um grande prazer ter feito o teste e confesso que foi até divertido (em alguns momentos).
+      Lidar com tarefas com escopo próximo do real sem compromisso é uma experiência que
+      raramente temos.. estamos sempre com pressa para alguma coisa e acaba que a gente não
+      para pra ver como as coisas podem ser legais :/
+    </p>
+    <p>
+      Sem mais delongas, vamos ao que interessa! Vou tentar explicar um pouco para você
+      (avaliador ou apenas alguém está dando uma olhadinha) como o projeto se passa.
+    </p>
+    <p>
+      O repositório tem duas pastas, como se fossem dois projetos mesmo, que
+      funcionam de forma independente: <b><i>back</i></b> e <b><i>front</i></b>.
+      Na pasta back você poderá encontrar um serviço criado com express que consome
+      uma api REST e entrega o conteúdo através de GraphQL. Já no front temos um projeto
+      criado com o Vue-CLI com base bem simples. Nos dois foram aplicadas o mínimo
+      de dependências que eu consegui (mas sempre dá para otimizar né... aceito dicas =)
+      e sempre que deu tentei usar várias abordagens diferentes para uma mesma coisa.
+    </p>
+    <p>
+      Este projeto é antes de tudo uma demonstração da forma com a qual eu trabalho
+      com VueJS, Javascript, TypeScript, Stylus, e toda essa sopa de letrinhas.
+      Provavelmente o front estará mais bonito que o back, mas a a oportunidade em
+      questão era pra o front, então foi onde centrei meus esforços.
+    </p>
+    <br>
+    <p>
+      Na <a href="/#/dashboard/about">página Sobre</a> eu explico melhor sobre as
+      tecnologias aplicadas. Dá uma chegada lá para conferior. Você pode clicar neste
+      link aqui detrás ou usar o "menuzinho" maroto que está pulsando lá em cima.
+    </p>
+    <br><br>
+    <small>
+      P.S.: este número estranho aqui embaixo é a versão do app. Ele muda toda vez
+      que rola um deploy, também falo dele lá na <a href="/#/dashboard/about">página Sobre</a>!
+    </small>
+  </div> <br> <pre>version </pre>
+</div>
+`;

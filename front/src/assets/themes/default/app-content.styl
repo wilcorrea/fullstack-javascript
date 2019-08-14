@@ -1,0 +1,38 @@
+@import "./app-content-variables.styl"
+
+.app-content
+  display flex
+  background #fff
+  padding 15px 15px
+  border-radius 6px
+  color $content-color
+  min-height 40px
+  transition all .3s
+
+  > .app-content__left,
+  > .app-content__right
+    width 40px
+
+  > .app-content__left
+    text-align left
+
+    & >>> .app-icon
+      font-size 2.5em
+
+  > .app-content__right
+    text-align right
+
+    & >>> .app-icon
+      font-size 1.5em
+
+  > .app-content__center
+    flex-grow 1
+    overflow hidden
+    white-space nowrap
+
+    > label
+      font-weight bold
+      color $content-color-label
+      display block
+      text-transform uppercase
+      margin 0 0 5px 0

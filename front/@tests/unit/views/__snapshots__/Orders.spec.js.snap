@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Orders should render content correctly 1`] = `
+<div class="app-layout__page Orders">
+  <h1>Pedidos</h1>
+  <app-table-stub columns="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" records="" loader="<div class=&quot;ld ld-ring ld-vortex-in&quot;></div>" presshold="true"></app-table-stub>
+  <app-pagination-stub offset="0" limit="5"></app-pagination-stub>
+</div>
+`;

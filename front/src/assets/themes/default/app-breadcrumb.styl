@@ -1,0 +1,21 @@
+@import "app-breadcrumb-variables.styl"
+
+.app-breadcrumb
+  display block
+  padding 0 10px
+  > .app-breadcrumb__item
+    font-size 1.2em
+    display inline-block
+    margin 0 10px 0 0
+    &:after
+      content: ' / '
+    &:last-child
+      &:after
+        content: ''
+      > .app-breadcrumb__item__a
+        color $breadcrumb-item-last
+        cursor default
+    > .app-breadcrumb__item__a
+      cursor pointer
+      text-decoration none
+      color $breadcrumb-item

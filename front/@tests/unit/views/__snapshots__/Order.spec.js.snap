@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order should render content correctly 1`] = `
+<div class="app-layout__page Order">
+  <h2>Detalhes do Pedido</h2>
+  <app-form-stub fields="[object Object]" value="[object Object]"></app-form-stub>
+</div>
+`;

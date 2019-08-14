@@ -1,0 +1,25 @@
+.app-form
+
+  .app-form__wrapper
+    display grid
+    grid-template-columns repeat(100, 1%)
+    margin 0 -15px
+
+    .app-field
+      grid-column auto / span 100
+      padding 0 15px
+      margin 0 0 25px 0
+
+      for index in (1..100)
+        &.app-field--width-{index}
+          grid-column auto / span index
+
+      for index in (1..10)
+        &.app-field--height-{index}
+          grid-row auto / span index
+
+@media (max-width $break-micro)
+  .app-form:not(.no-break) .app-field:not(.no-break)
+    grid-column auto / span 100 !important
+    grid-row auto / span 1
+    margin 0 0 10px 0

@@ -1,0 +1,11 @@
+GET https://sandbox.moip.com.br/v2/orders/ORD-4S2P3DSGU5ZK HTTP/1.1
+Host: sandbox.moip.com.br
+Authorization: {{ Authorization }}
+Accept: */*
+Cache-Control: no-cache
+accept-encoding: gzip, deflate
+Connection: keep-alive
+cache-control: no-cache
+Content-Type: application/json
+
+###

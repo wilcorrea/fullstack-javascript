@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helperTable check tableComponent payments: payments: BOLETO 1`] = `<span class="app-icon material-icons">receipt</span>`;
+
+exports[`helperTable check tableComponent payments: payments: CREDIT_CARD 1`] = `<span class="app-icon material-icons">credit_card</span>`;
+
+exports[`helperTable check tableComponent payments: payments: DEBIT_CARD 1`] = `<span class="app-icon material-icons">sd_card</span>`;
+
+exports[`helperTable check tableComponent payments: payments: ONLINE_BANK_DEBIT 1`] = `<span class="app-icon material-icons">account_balance_wallet</span>`;
+
+exports[`helperTable check tableComponent payments: payments: ONLINE_BANK_FINANCING 1`] = `<span class="app-icon material-icons">account_balance</span>`;
+
+exports[`helperTable check tableComponent payments: payments: WALLET 1`] = `<span class="app-icon material-icons">attach_money</span>`;
+
+exports[`helperTable check tableComponent status: status: NOT_PAID 1`] = `<div style="border-left: 2px solid rgb(255, 0, 0); text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">Pedido<br>Aberto</div>`;
+
+exports[`helperTable check tableComponent status: status: PAID 1`] = `<div style="border-left: 2px solid rgb(0, 253, 198); text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">Pedido<br>Pago</div>`;
+
+exports[`helperTable check tableComponent status: status: REVERTED 1`] = `<div style="border-left: 2px solid rgb(255, 150, 0); text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">Pedido<br>Estornado</div>`;
+
+exports[`helperTable check tableComponent status: status: WAITING 1`] = `<div style="border-left: 2px solid rgb(42, 91, 185); text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">Aguardando<br>Pagamento</div>`;

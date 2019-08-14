@@ -1,0 +1,39 @@
+version: '3'
+
+networks:
+  reverse-proxy:
+    external:
+      name: reverse-proxy
+
+services:
+  front:
+    image: httpd:2.4
+    container_name: front
+    restart: unless-stopped
+    networks:
+      - reverse-proxy
+    volumes:
+      - ./front:/usr/local/apache2/htdocs
+    environment:
+      - VIRTUAL_HOST=fullstack-javascript.wilcorrea.dev
+      - LETSENCRYPT_EMAIL=wilcorrea@gmail.com
+      - LETSENCRYPT_HOST=fullstack-javascript.wilcorrea.dev
+    expose:
+      - 80
+
+  back:
+    image: node:10-alpine
+    container_name: back
+    restart: unless-stopped
+    networks:
+      - reverse-proxy
+    volumes:
+      - ./back:/var/www/app
+    working_dir: /var/www/app
+    environment:
+      - VIRTUAL_HOST=fullstack-javascript-back.wilcorrea.dev
+      - LETSENCRYPT_EMAIL=wilcorrea@gmail.com
+      - LETSENCRYPT_HOST=fullstack-javascript-back.wilcorrea.dev
+    expose:
+      - 80
+    command: node app.js

@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea
+/docker-compose.yml
+/.bin/*
+
+/.docker/back
+/.docker/front
+
+/back/build
+/back/dist
+/back/node_modules/*
+/back/yarn-error.log
+
+/front/node_modules/*
+
+# /dist/back/*
+/fullstack-javascript.pem
+
+!*.gitkeep

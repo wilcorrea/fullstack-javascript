@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenu should render content correctly: closed 1`] = `
+<div
+  class="AppMenu"
+>
+  <div
+    class="AppMenu__backdrop"
+  />
+   
+  <div
+    class="AppMenu__trigger"
+  />
+   
+  <div
+    class="AppMenu__links"
+  >
+    <div
+      class="AppMenu__closer"
+    >
+      <app-icon-stub
+        color="white"
+        name="close"
+      />
+    </div>
+     
+    <ul>
+      <li>
+        <router-link-stub
+          to="/test"
+        >
+          
+          Test
+        
+        </router-link-stub>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AppMenu should render content correctly: open 1`] = `
+<div
+  class="AppMenu"
+>
+  <div
+    class="AppMenu__backdrop AppMenu__trigger--visible"
+  />
+   
+  <div
+    class="AppMenu__trigger AppMenu__trigger--triggered"
+  />
+   
+  <div
+    class="AppMenu__links AppMenu__links--open"
+  >
+    <div
+      class="AppMenu__closer"
+    >
+      <app-icon-stub
+        color="white"
+        name="close"
+      />
+    </div>
+     
+    <ul>
+      <li>
+        <router-link-stub
+          to="/test"
+        >
+          
+          Test
+        
+        </router-link-stub>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

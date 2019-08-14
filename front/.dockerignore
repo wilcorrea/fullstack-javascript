@@ -1,0 +1,12 @@
+/.dev
+/dist
+/node_modules
+/@tests
+/.scripts
+
+/.editorconfig
+/.gitignore
+/bootstrap.sh
+/cypress.json
+/README.md
+/webpack-stats.json

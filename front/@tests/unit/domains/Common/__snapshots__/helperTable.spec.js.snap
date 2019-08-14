@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helperTable status composition function: no: no 1`] = `<div style="border-left: 2px solid red; text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">no</div>`;
+
+exports[`helperTable status composition function: yes: yes 1`] = `<div style="border-left: 2px solid green; text-transform: uppercase; padding: 0px 0px 0px 5px; font-size: 0.7em; color: rgb(60, 73, 93); line-height: 120%;">yes</div>`;

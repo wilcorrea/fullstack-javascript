@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh -i "fullstack-javascript.pem" ubuntu@18.229.28.216

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBreadcrumb should render content correctly 1`] = `
+<ul class="app-breadcrumb">
+  <li class="app-breadcrumb__item"><a class="app-breadcrumb__item__a undefined">Início</a></li>
+</ul>
+`;

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ISSUE_TRACKER="https://gitlab.com/wilcorrea/fullstack-javascript/issues"
+BRANCH_AS_ISSUE_ID="1"

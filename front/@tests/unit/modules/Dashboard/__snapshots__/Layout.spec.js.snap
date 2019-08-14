@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render content correctly 1`] = `
+<div class="app-layout DashboardLayout">
+  <app-menu-stub links="[object Object],[object Object],[object Object]"></app-menu-stub>
+  <div class="app-layout__container">
+    <app-breadcrumb-stub></app-breadcrumb-stub>
+    <router-view-stub></router-view-stub>
+  </div>
+</div>
+`;

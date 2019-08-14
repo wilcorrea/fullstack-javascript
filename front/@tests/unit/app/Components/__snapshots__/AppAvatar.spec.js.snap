@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppAvatar should render content correctly 1`] = `<div class="app-avatar app-avatar__fallback" style="background: rgb(255, 194, 123); color: rgb(83, 90, 87);">?</div>`;

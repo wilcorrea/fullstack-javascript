@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppPagination should render content correctly 1`] = `
+<div
+  class="app-pagination"
+>
+  <button
+    class="app-pagination__append"
+  >
+    Mais resultados
+  </button>
+  <button
+    class="app-pagination__to-top"
+  >
+    <app-icon-stub
+      name="arrow_upward"
+    />
+  </button>
+</div>
+`;

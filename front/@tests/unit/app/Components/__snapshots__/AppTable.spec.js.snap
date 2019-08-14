@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTable create the table body: tableComponent: tableComponent 1`] = `
+<div
+  class="app-table"
+>
+  <div
+    class="app-table__container"
+    move="true"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div
+              class="app-table__th app-table__id"
+            >
+              ID
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__name"
+            >
+              tableLink
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__phone"
+            >
+              tableFormat
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__address"
+            >
+              tableHtml
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__status"
+            >
+              tableHtml
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <span>
+        <tr>
+          <td
+            class="app-table__id--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              1
+            </div>
+          </td>
+          <td
+            class="app-table__name--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <a
+                class="app-table__a"
+                href="root/Abc"
+              >
+                Abc
+              </a>
+            </div>
+          </td>
+          <td
+            class="app-table__phone--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              333/phone/333
+            </div>
+          </td>
+          <td
+            class="app-table__address--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <span>
+                <b>
+                  = )
+                </b>
+              </span>
+            </div>
+          </td>
+          <td
+            class="app-table__status--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <b>
+                face
+              </b>
+            </div>
+          </td>
+        </tr>
+      </span>
+    </table>
+    <div
+      class="app-table__loading"
+    >
+      <div
+        class="app-table__loading-container"
+      >
+        <div
+          class="ld ld-ring ld-vortex-in"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-table__shadow"
+  />
+</div>
+`;
+
+exports[`AppTable create the table body: tableFormat: tableFormat 1`] = `
+<div
+  class="app-table"
+>
+  <div
+    class="app-table__container"
+    move="true"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div
+              class="app-table__th app-table__id"
+            >
+              ID
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__name"
+            >
+              tableLink
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__phone"
+            >
+              tableFormat
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__address"
+            >
+              tableHtml
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__status"
+            >
+              tableHtml
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <span>
+        <tr>
+          <td
+            class="app-table__id--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              1
+            </div>
+          </td>
+          <td
+            class="app-table__name--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <a
+                class="app-table__a"
+                href="root/Abc"
+              >
+                Abc
+              </a>
+            </div>
+          </td>
+          <td
+            class="app-table__phone--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              333/phone/333
+            </div>
+          </td>
+          <td
+            class="app-table__address--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <span>
+                <b>
+                  = )
+                </b>
+              </span>
+            </div>
+          </td>
+          <td
+            class="app-table__status--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <b>
+                face
+              </b>
+            </div>
+          </td>
+        </tr>
+      </span>
+    </table>
+    <div
+      class="app-table__loading"
+    >
+      <div
+        class="app-table__loading-container"
+      >
+        <div
+          class="ld ld-ring ld-vortex-in"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-table__shadow"
+  />
+</div>
+`;
+
+exports[`AppTable create the table body: tableHtml: tableHtml 1`] = `
+<div
+  class="app-table"
+>
+  <div
+    class="app-table__container"
+    move="true"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div
+              class="app-table__th app-table__id"
+            >
+              ID
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__name"
+            >
+              tableLink
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__phone"
+            >
+              tableFormat
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__address"
+            >
+              tableHtml
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__status"
+            >
+              tableHtml
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <span>
+        <tr>
+          <td
+            class="app-table__id--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              1
+            </div>
+          </td>
+          <td
+            class="app-table__name--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <a
+                class="app-table__a"
+                href="root/Abc"
+              >
+                Abc
+              </a>
+            </div>
+          </td>
+          <td
+            class="app-table__phone--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              333/phone/333
+            </div>
+          </td>
+          <td
+            class="app-table__address--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <span>
+                <b>
+                  = )
+                </b>
+              </span>
+            </div>
+          </td>
+          <td
+            class="app-table__status--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <b>
+                face
+              </b>
+            </div>
+          </td>
+        </tr>
+      </span>
+    </table>
+    <div
+      class="app-table__loading"
+    >
+      <div
+        class="app-table__loading-container"
+      >
+        <div
+          class="ld ld-ring ld-vortex-in"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-table__shadow"
+  />
+</div>
+`;
+
+exports[`AppTable create the table body: tableLink: tableLink 1`] = `
+<div
+  class="app-table"
+>
+  <div
+    class="app-table__container"
+    move="true"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div
+              class="app-table__th app-table__id"
+            >
+              ID
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__name"
+            >
+              tableLink
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__phone"
+            >
+              tableFormat
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__address"
+            >
+              tableHtml
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__status"
+            >
+              tableHtml
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <span>
+        <tr>
+          <td
+            class="app-table__id--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              1
+            </div>
+          </td>
+          <td
+            class="app-table__name--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <a
+                class="app-table__a"
+                href="root/Abc"
+              >
+                Abc
+              </a>
+            </div>
+          </td>
+          <td
+            class="app-table__phone--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              333/phone/333
+            </div>
+          </td>
+          <td
+            class="app-table__address--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <span>
+                <b>
+                  = )
+                </b>
+              </span>
+            </div>
+          </td>
+          <td
+            class="app-table__status--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <b>
+                face
+              </b>
+            </div>
+          </td>
+        </tr>
+      </span>
+    </table>
+    <div
+      class="app-table__loading"
+    >
+      <div
+        class="app-table__loading-container"
+      >
+        <div
+          class="ld ld-ring ld-vortex-in"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-table__shadow"
+  />
+</div>
+`;
+
+exports[`AppTable should render content correctly 1`] = `
+<div
+  class="app-table"
+>
+  <div
+    class="app-table__container"
+    move="true"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div
+              class="app-table__th app-table__id"
+            >
+              ID
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__name"
+            >
+              tableLink
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__phone"
+            >
+              tableFormat
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__address"
+            >
+              tableHtml
+            </div>
+          </th>
+          <th>
+            <div
+              class="app-table__th app-table__status"
+            >
+              tableHtml
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <span>
+        <tr>
+          <td
+            class="app-table__id--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              1
+            </div>
+          </td>
+          <td
+            class="app-table__name--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <a
+                class="app-table__a"
+                href="root/Abc"
+              >
+                Abc
+              </a>
+            </div>
+          </td>
+          <td
+            class="app-table__phone--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              333/phone/333
+            </div>
+          </td>
+          <td
+            class="app-table__address--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <span>
+                <b>
+                  = )
+                </b>
+              </span>
+            </div>
+          </td>
+          <td
+            class="app-table__status--value"
+          >
+            <div
+              class="app-table__td"
+            >
+              <b>
+                face
+              </b>
+            </div>
+          </td>
+        </tr>
+      </span>
+    </table>
+    <div
+      class="app-table__loading"
+    >
+      <div
+        class="app-table__loading-container"
+      >
+        <div
+          class="ld ld-ring ld-vortex-in"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-table__shadow"
+  />
+</div>
+`;

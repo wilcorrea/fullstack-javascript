@@ -1,0 +1,33 @@
+body
+  overflow hidden
+
+.app-layout
+  background $dashboard-background
+  height 100vh
+  width 100vw
+  display block
+  overflow-x auto
+  overflow-y scroll
+  scroll-behavior smooth
+  > .app-layout__container
+    min-width $layout-min-width
+    padding 30px 0 0 0
+    margin 0 auto
+    width 80vw
+    > .app-layout__page
+      padding $layout-page-padding
+
+@media (max-width $break-giga)
+  .app-layout
+    > .app-layout__container
+      width 86vw
+
+@media (max-width $break-mega)
+  .app-layout
+    > .app-layout__container
+      width 94vw
+
+@media (max-width $break-kilo)
+  .app-layout
+    > .app-layout__container
+      width 100%
