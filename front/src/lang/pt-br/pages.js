@@ -8,11 +8,11 @@
 export default {
   '/dashboard': {
     crumb: 'Início',
-    title: 'Bem vindo ao Tech Lead Front Challenge'
+    title: 'Bem vindo ao Fullstack Javascript'
   },
   '/dashboard/about': {
     crumb: 'Sobre',
-    title: 'Sobre o Tech Lead Front Challenge'
+    title: 'Sobre o Fullstack Javascript'
   },
   '/dashboard/orders': {
     crumb: 'Pedidos',
