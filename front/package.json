@@ -20,7 +20,7 @@
   "dependencies": {
     "@vue/cli": "^3.8.2",
     "axios": "^0.18.0",
-    "core-js": "^2.6.5",
+    "core-js": "^3.2.1",
     "dayjs": "^1.8.14",
     "global": "^4.3.2",
     "material-icons": "^0.3.1",
@@ -32,7 +32,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@types/jest": "^23.1.4",
+    "@types/jest": "^24.0.17",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-e2e-cypress": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
@@ -45,17 +45,17 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
+    "eslint": "^6.1.0",
     "eslint-plugin-vue": "^5.0.0",
     "serve": "^11.0.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "ts-jest": "^23.0.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
-    "webpack-version-file-plugin": "^0.3.3",
+    "webpack-version-file-plugin": "^0.4.0",
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "eslintConfig": {
