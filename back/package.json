@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "apollo-server-express": "^2.5.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "graphql": "^0.10.5",
